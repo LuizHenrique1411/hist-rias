@@ -8,12 +8,14 @@ body {
     background: url('Design\ sem\ nome\ \(6\).png');
     background-attachment: fixed;
     background-size: cover;
-}   
+}
+
 header {
     background-color: #121212c2;
     padding: 20px;
-    text-align: center; 
+    text-align: center;
 }
+
 h1 {
     margin: 0;
     font-size: 48px;
@@ -22,6 +24,7 @@ h1 {
     letter-spacing: 4px;
     color: #fff;
 }
+
 nav {
     background-color: #1b1b1bcb;
     padding: 10px;
@@ -30,6 +33,7 @@ nav {
     align-items: center;
     box-shadow: 0 0 5px #ffff;
 }
+
 nav a {
     color: #fff;
     text-decoration: none;
@@ -42,10 +46,12 @@ nav a {
     padding: 10px 20px;
     border: 2px solid #fff;
 }
+
 nav a:hover {
     background-color: #fff;
     color: #121212;
 }
+
 .container {
     max-width: 850px;
     margin: 0 auto;
@@ -56,22 +62,26 @@ nav a:hover {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 .post {
     margin-bottom: 30px;
     padding-bottom: 20px;
     border-bottom: 1px solid #ccc;
 }
+
 .post h2 {
     margin-top: 0;
     font-size: 36px;
     color: #fff;
 }
+
 .post p {
     margin-top: 0;
     font-size: 24px;
     line-height: 1.5;
     color: #ccc;
 }
+
 .postagem {
     display: inline-block;
     background-color: #000;
@@ -85,6 +95,7 @@ nav a:hover {
     text-transform: uppercase;
     transition: all 0.2s ease;
 }
+
 .postagem:hover {
     background-color: #fff;
     color: #000;
@@ -103,29 +114,29 @@ nav a:hover {
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 0.5px 5px #FFF;
-  }
-  
-  .btn:hover {
+}
+
+.btn:hover {
     background-color: #fff;
     color: #000;
     border: 1px solid #000;
     box-shadow: 0 0.5px 5px #000;
-  }
+}
 
 .story-title {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
 .story-image {
-  width: 50%;
-  height: auto;
-  margin-bottom: 20px;
-  box-shadow: 15px 15px 5px #000000;
-  margin-left: 200px;
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+    box-shadow: 15px 15px 5px #000000;
+    margin-left: 200px;
 }
 
-.story-image:hover{
+.story-image:hover {
     width: 50%;
     height: auto;
     margin-bottom: 20px;
@@ -134,8 +145,8 @@ nav a:hover {
 }
 
 .story-description {
-  text-align: justify;
-  font-size: 1rem;
+    text-align: justify;
+    font-size: 1rem;
 }
 
 .story-description {
@@ -147,47 +158,47 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-  }
-  
-  nav li {
+}
+
+nav li {
     display: inline-block;
     margin-right: 10px;
     position: relative;
-  }
-  
-  nav a {
+}
+
+nav a {
     display: block;
     padding: 10px;
     color: #ffffff;
     font-size: 16px;
     text-decoration: none;
     background-color: #121212;
-  }
-  
-  nav ul ul {
+}
+
+nav ul ul {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
     padding: 0;
-  }
-  
-  nav ul ul li {
+}
+
+nav ul ul li {
     display: block;
     width: 150px;
     margin-top: 10px;
-  }
-  
-  nav li:hover > ul {
+}
+
+nav li:hover>ul {
     display: block;
-  }
-  
-  .carousel-inner{
+}
+
+.carousel-inner {
     width: 90vw;
     height: 90vh;
-  }
+}
 
-  .container-carousel{
+.container-carousel {
     max-width: 100%;
     margin: 0 auto;
     padding: 20px;
@@ -195,7 +206,5 @@ nav ul {
     box-shadow: 0 0 10px #ffff;
     border-radius: 5px;
     margin-top: 30px;
-    margin-bottom: 30px;    
-  }
-
-  
+    margin-bottom: 30px;
+}
