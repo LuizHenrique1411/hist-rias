@@ -93,7 +93,7 @@ nav a:hover {
 
 .btn {
     background-color: #000;
-    color: #fff;
+    color: #ffffff;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -122,13 +122,14 @@ nav a:hover {
   height: auto;
   margin-bottom: 20px;
   box-shadow: 15px 15px 5px #000000;
+  margin-left: 200px;
 }
 
 .story-image:hover{
     width: 50%;
     height: auto;
     margin-bottom: 20px;
-    box-shadow: 15px 15px 5px #fff;
+    box-shadow: 15px 15px 5px #ffffff8f;
     transition: all 0.3 ease;
 }
 
@@ -142,6 +143,59 @@ nav a:hover {
     font-weight: normal;
 }
 
-.imagem1{
-    
-}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #121212;
+  }
+  
+  nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+  }
+  
+  nav ul ul li {
+    display: block;
+    width: 150px;
+    margin-top: 10px;
+  }
+  
+  nav li:hover > ul {
+    display: block;
+  }
+  
+  .carousel-inner{
+    width: 90vw;
+    height: 90vh;
+  }
+
+  .container-carousel{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #121212;
+    box-shadow: 0 0 10px #ffff;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;    
+  }
+
+  
