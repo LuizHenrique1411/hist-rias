@@ -8,6 +8,8 @@ body {
     background: url('Design\ sem\ nome\ \(6\).png');
     background-attachment: fixed;
     background-size: cover;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
@@ -59,8 +61,8 @@ nav a:hover {
     background-color: #121212;
     box-shadow: 0 0 10px #ffff;
     border-radius: 5px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 .post {
@@ -133,7 +135,6 @@ nav a:hover {
     height: auto;
     margin-bottom: 20px;
     box-shadow: 15px 15px 5px #000000;
-    margin-left: 50%;
 }
 
 .story-image:hover {
