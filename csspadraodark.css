@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     transition: all 0.4s ease;
-    background: url('../imagem/Design\ sem\ nome\ \(6\).png');
+    background: url('Design\ sem\ nome\ \(6\).png');
     background-attachment: fixed;
     background-size: cover;
     justify-content: center;
@@ -213,4 +213,43 @@ nav ul ul {
 
 .menu-lateral .icone:hover{
     transform: scale(1.2);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #121212;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+}
+
+nav ul ul li {
+    display: block;
+    width: 150px;
+    margin-top: 10px;
+}
+
+nav li:hover>ul {
+    display: block;
 }
